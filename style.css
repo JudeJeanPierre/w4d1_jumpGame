@@ -55,3 +55,35 @@
     100%{left:-40px;}
     
 }
+
+#btnJump{
+    border: solid purple;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    padding: 5px 100px 5px 100px;
+    margin-top: 5%;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+#btnJump:hover{
+    background-color: yellow;
+    box-shadow: 2px;
+}
+
+#btnReset{
+    border: solid red;
+    border-radius: 50%;
+    background-color: goldenrod;
+    padding: 5px 50px 5px 50px;
+    margin-top: 5%;
+    font-weight: bold;
+    color: green;
+    cursor: pointer;
+}
+
+#btnReset:hover{
+    background-color: skyblue;
+    box-shadow: 2px gray;     
+}

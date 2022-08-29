@@ -39,7 +39,9 @@
 #block{
     width: 30px;
     height: 20px;
-    background-color: lime;
+    /* background-color: lime; */
+    background-image: url("https://c.tenor.com/8WMsYmLb2l8AAAAM/scary-angry.gif");
+    background-size: 30px;
     position: relative;
     top: 130px;
     left: 480px;

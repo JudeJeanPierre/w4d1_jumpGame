@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: blanchedalmond;
+      
+    }
+.gameContainer{
+    display: flex;
+    justify-content: center;
+}
+#game{
+    background-image: url("https://media4.giphy.com/media/2dMR27Z7ipMkM/200.gif");
+    width: 500px;
+    height: 200px;
+    border: solid rgb(174, 0, 255);
+        margin-top: 20px;    
+        
+}
+#character{
+    width: 30px;
+    height: 50px;
+    background-color: orange ;
+    position: relative;
+    top: 150px;
+    /* animation: jump 500ms infinite; */
+}
+
+.animate{
+    animation: jump 500ms infinite;
+}
+
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;} 
+} 
+#block{
+    width: 30px;
+    height: 20px;
+    background-color: lime;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0%{left:480px;}
+    100%{left:-40px;}
+    
+}

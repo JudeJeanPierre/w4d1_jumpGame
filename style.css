@@ -4,6 +4,14 @@
     text-align: center;
     background-color: blanchedalmond;
 }
+h1{
+    color: red;
+}
+
+h3{
+    color: rgb(200, 5, 200);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .gameContainer{
     display: flex;
     justify-content: center;

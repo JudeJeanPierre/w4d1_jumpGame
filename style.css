@@ -21,6 +21,9 @@
     width: 30px;
     height: 50px;
     background-color: orange ;
+    background-image: url("https://i.gifer.com/origin/db/db25d10284630f0e3df58e3fa8ede442_w200.gif");
+    background-size: 30px;
+    background-repeat: no-repeat;
     position: relative;
     top: 150px;
     /* animation: jump 500ms infinite; */
